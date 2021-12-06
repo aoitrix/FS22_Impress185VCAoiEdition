@@ -28,7 +28,7 @@ steps:
   image: appleboy/drone-git-push
   settings:
     branch: master
-    remote: git@github.com:aoi/FS22_Impress185VCAoiEdition
+    remote: git@github.com:aoitrix/FS22_Impress185VCAoiEdition.git
     force: false
     commit: true
 
