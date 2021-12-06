@@ -15,12 +15,12 @@ steps:
   settings:
     hosts: [ "127.0.0.1" ]
     user: 
-      from_secret: ssh_user
+      from_secret: ssh_username
     source: dist/*
     target: 
       from_secret: ssh_path
     recursive: true
-    delete: true
+    delete: false
     key:
       from_secret: ssh_key
 - name: push commit
