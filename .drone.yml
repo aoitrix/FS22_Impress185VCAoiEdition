@@ -10,19 +10,6 @@ steps:
       - /usr/bin/apt update
       - /usr/bin/apt install -y zip jq libxml2-utils
       - /bin/bash bin/build.sh
-  when:
-    event: tag
-- name: gitea_release
-  image: plugins/gitea-release
-  settings:
-    api_key:
-      from_secret: gitea_token
-    base_url: 
-      from_secret: gitea_url
-    checksum:
-      - md5
-      - sha512
-    title: Release
 - name: deploy
   image: drillster/drone-rsync
   settings:
