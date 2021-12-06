@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>GIANTS Software</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>IMPRESS 185VC AoiEdition</en>
+    </title>
+    <description>
+        <en>
+           blubb
+</en>
+    </description>
+    <iconFilename>store_impress185VCPro.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <storeItems>
+        <storeItem xmlFilename="impress185VCPro.xml" />
+    </storeItems>
+
+</modDesc>
