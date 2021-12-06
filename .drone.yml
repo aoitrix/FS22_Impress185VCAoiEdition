@@ -28,7 +28,8 @@ steps:
   image: appleboy/drone-git-push
   settings:
     branch: master
-    remote: ssh://git@github.com:aoitrix/FS22_Impress185VCAoiEdition.git
+    remote: git@github.com:aoitrix/FS22_Impress185VCAoiEdition.git
+    commit_message: "blubb"
     force: false
     commit: true
 
