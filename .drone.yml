@@ -13,7 +13,8 @@ steps:
 - name: deploy
   image: drillster/drone-rsync
   settings:
-    hosts: [ "127.0.0.1" ]
+    hosts: 
+      from_secret: ssh_host
     user: 
       from_secret: ssh_username
     source: dist/*
