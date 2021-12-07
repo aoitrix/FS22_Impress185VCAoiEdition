@@ -31,7 +31,7 @@ steps:
     remote: 
       from_secret: gh_url
     commit_message: "blubb"
-    force: false
+    force: true
     commit: true
 
   
