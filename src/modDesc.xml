@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="61">
-    <author>Aoi[trix], GIANTS Software</author>
+    <author>Aoi[trix]</author>
     <version>1.0.1.0</version>
     <title>
         <en><![CDATA[IMPRESS 185VC AoiEdition]]></en>
@@ -22,7 +22,7 @@ Changelog:
 - 1.0.1.0 Modhub Release]]>
         </en>
     </description>
-    <iconFilename>store_impress185VCPro.dds</iconFilename>
+    <iconFilename>modIcon.dds</iconFilename>
     <multiplayer supported="true" />
 
     <storeItems>
