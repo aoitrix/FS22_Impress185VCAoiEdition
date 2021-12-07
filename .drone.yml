@@ -27,7 +27,7 @@ steps:
 - name: push commit
   image: appleboy/drone-git-push
   settings:
-    branch: master
+    branch: main
     remote: 
       from_secret: gh_url
     commit_message: "blubb"
